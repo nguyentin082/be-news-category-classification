@@ -1,6 +1,6 @@
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk.download('punkt', download_dir='/root/nltk_data')
+nltk.download('stopwords', download_dir='/root/nltk_data')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import re
